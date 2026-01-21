@@ -1,8 +1,10 @@
 # npp-with-asm-x86
 
+<div dir="rtl" style="text-align: right;">
 מדריך מלא עם קוד מקור המסביר כיצד להשתמש ב־**Notepad++** כדי להדר (לקמפל) ולהריץ בקלות קוד **Assembly x86** באמצעות **TASM** ו־**Turbo Debugger**, בעזרת **DOSBox** על מערכת **Windows**.
 
 קובץ README זה משלב בין **שלבי סרטון ההדרכה** לבין **מדריך כתוב וברור**, כך שתוכל לבחור אם לעקוב אחרי הסרטון או לבצע את כל ההתקנה ישירות מכאן.
+</div>
 
 ---
 
@@ -17,9 +19,11 @@
 
 ## 🎥 סרטון הדרכה
 
+<div dir="rtl" style="text-align: right;">
 👉 [לחץ כאן לצפייה בסרטון ההתקנה המלא](https://www.youtube.com/watch?v=GEZ0K2BsnDg)
 
 > אם אתה מעדיף לקרוא במקום לצפות, כל מה שמופיע בסרטון מוסבר כאן שלב־אחר־שלב.
+</div>
 
 ---
 
@@ -27,26 +31,31 @@
 
 ### 1️⃣ הורדת הפרויקט
 
+<div dir="rtl" style="text-align: right;">
 היכנס למאגר ב־GitHub:
 
 https://github.com/finalLy134/npp-with-asm-x86
 
 הורד את קובץ ה־ZIP **או** שכפל (clone) את הפרויקט – לפי מה שנוח לך.
+</div>
 
 ---
 
 ### 2️⃣ התקנת Notepad++
 
+<div dir="rtl" style="text-align: right;">
 אם Notepad++ לא מותקן אצלך:
 
 🔗 https://notepad-plus-plus.org/downloads/
 
 > אם Notepad++ כבר מותקן – ניתן לדלג על שלב זה.
+</div>
 
 ---
 
 ### 3️⃣ ביטול חסימת ה־ZIP (חשוב מאוד!)
 
+<div dir="rtl" style="text-align: right;">
 1. לחץ קליק ימני על קובץ ה־ZIP שהורדת
 2. בחר **Properties (מאפיינים)**
 3. אם מופיעה ההודעה:
@@ -56,17 +65,21 @@ https://github.com/finalLy134/npp-with-asm-x86
 4. סמן **Unblock (בטל חסימה)** ולחץ **Apply**
 
 > ⚠️ הודעה זו לא מופיעה בכל מחשב, אך **אם היא מופיעה – זהו שלב חובה**.
+</div>
 
 ---
 
 ### 4️⃣ חילוץ הפרויקט
 
+<div dir="rtl" style="text-align: right;">
 חלץ את קובץ ה־ZIP ופתח את התיקייה שחולצה.
+</div>
 
 ---
 
 ### 5️⃣ התקנת DOSBox
 
+<div dir="rtl" style="text-align: right;">
 1. הפעל את **dosbox.exe**
 2. עקוב אחרי שלבי ההתקנה
 
@@ -78,11 +91,13 @@ https://github.com/finalLy134/npp-with-asm-x86
 
 - אם התקנת בנתיב שונה, **יש לעדכן ידנית את הנתיבים בקבצי ה־`.bat`**
 - שנה את נתיב ברירת המחדל רק אם אתה יודע בדיוק מה אתה עושה
+</div>
 
 ---
 
 ### 6️⃣ העברת TASM לכונן C
 
+<div dir="rtl" style="text-align: right;">
 גרור את תיקיית **TASM** אל:
 
 ```
@@ -94,6 +109,7 @@ C:\
 ```
 C:\TASM
 ```
+</div>
 
 ---
 
@@ -101,15 +117,18 @@ C:\TASM
 
 ### 7️⃣ פתיחת חלון Run
 
+<div dir="rtl" style="text-align: right;">
 1. פתח את **Notepad++**
 2. עבור אל **Run → Run...**
 
    **או לחץ `F5`**
+</div>
 
 ---
 
 ### 8️⃣ הגדרת Compile and Run
 
+<div dir="rtl" style="text-align: right;">
 הדבק את הפקודה הבאה:
 
 ```
@@ -122,11 +141,13 @@ cmd /c ""C:\TASM\BIN\COMPILE_AND_RUN.BAT" "$(FULL_CURRENT_PATH)""
 
    **Compile and Run (Assembly x86)**
 3. בחר מקש קיצור
+</div>
 
 ---
 
 ### 9️⃣ (אופציונלי) הגדרת Compile Only
 
+<div dir="rtl" style="text-align: right;">
 חזור על אותו תהליך, אך עם הפקודה הבאה:
 
 ```
@@ -138,6 +159,7 @@ cmd /c ""C:\TASM\BIN\COMPILE_ONLY.BAT" "$(FULL_CURRENT_PATH)""
 **Compile Only (Assembly x86)**
 
 > שימושי במיוחד לאיתור שגיאות לפני הרצה.
+</div>
 
 ---
 
@@ -145,6 +167,7 @@ cmd /c ""C:\TASM\BIN\COMPILE_ONLY.BAT" "$(FULL_CURRENT_PATH)""
 
 ### 🔟 פתיחת TASM כ־Workspace
 
+<div dir="rtl" style="text-align: right;">
 1. ב־Notepad++ בחר **File → Open Folder as Workspace**
 2. בחר:
 
@@ -153,6 +176,7 @@ C:\TASM
 ```
 
 🎉 סביבת העבודה מוכנה!
+</div>
 
 ---
 
@@ -160,32 +184,38 @@ C:\TASM
 
 ### 1️⃣1️⃣ יצירת קבצים
 
+<div dir="rtl" style="text-align: right;">
 1. בפאנל ה־Workspace לחץ קליק ימני על תיקיית **EX**
 2. בחר **Explorer here**
 3. צור:
    - קובץ חדש עם סיומת `.asm`
    - **או** תיקייה עם קבצי `.asm` בתוכה
+</div>
 
 ---
 
 ### 1️⃣2️⃣ כתיבת הקוד
 
+<div dir="rtl" style="text-align: right;">
 פתח את קובץ ה־`.asm` ב־Notepad++ וכתוב את קוד ה־Assembly x86 שלך.
+</div>
 
 ---
 
 ### 1️⃣3️⃣ הידור והרצה
 
+<div dir="rtl" style="text-align: right;">
 השתמש באחת מהאפשרויות הבאות:
-
 - **Run → Compile and Run (Assembly x86)**
 - **Run → Compile Only (Assembly x86)**
 - או מקשי הקיצור שהגדרת
+</div>
 
 ---
 
 ## 🐞 שימוש ב־Turbo Debugger (TD)
 
+<div dir="rtl" style="text-align: right;">
 לאחר שימוש ב־**Compile Only**, כאשר חלון DOSBox נפתח:
 
 ```
@@ -200,11 +230,13 @@ td your_file_name
 ליציאה:
 - **File → Exit** או `Alt + X`
 - לאחר מכן הקלד `exit` בקונסול של DOSBox
+</div>
 
 ---
 
 ## ✅ סיימת!
 
+<div dir="rtl" style="text-align: right;">
 הסביבה שלך מוגדרת ומוכנה 🎉
 
 כעת תוכל:
@@ -213,15 +245,21 @@ td your_file_name
 - לבצע Debug באמצעות Turbo Debugger
 
 בהצלחה! 🚀
+</div>
 
 ---
 
 ## 📌 טיפים
 
+<div dir="rtl" style="text-align: right;">
 - שמור את כל הפרויקטים בתוך `C:\TASM\EX`
 - השתמש בתיקיות משנה לסדר וארגון
 - אם DOSBox לא נפתח כראוי – בדוק שוב את קבצי ה־`.bat`
+</div>
 
 ---
 
+<div dir="rtl" style="text-align: right;">
 **סוף 😄**
+</div>
+
