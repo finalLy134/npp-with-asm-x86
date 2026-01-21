@@ -20,7 +20,7 @@ A tutorial with source code on how to use Notepad++ to easily compile and run As
 3. Press the **...** to browse and add navigate to the `C:\TASM\BIN` folder
 
 #### Setup Compile and Run
-4. Select the `COMPILE_AND_RUN.BAT`
+4. Select the `C:\TASM\BIN\COMPILE_AND_RUN.BAT`
 5. This will add the path to the run command, then make a space and press **+** on the right
 6. Select `FULL_CURRENT_PATH`
 7. Press **Save**, name it **Compile and Run (Assembly x86)** and select a hotkey.
@@ -28,7 +28,7 @@ A tutorial with source code on how to use Notepad++ to easily compile and run As
 9. Write your code inside it, open the **Run** at the top toolbar and press **Compile and Run (Assembly x86)** or use your hotkey.
 
 #### Setup Compile Only (Good for catching errors)
-4. Select the `COMPILE_ONLY.BAT`
+4. Select the `C:\TASM\BIN\COMPILE_ONLY.BAT`
 5. This will add the path to the run command, then make a space and press **+** on the right
 6. Select `FULL_CURRENT_PATH`
 7. Press **Save**, name it **Compile Only (Assembly x86)** and select a hotkey.
