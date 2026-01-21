@@ -1,7 +1,7 @@
 # npp-with-asm-x86
 מדריך עם קוד מקור על איך להדר (לקמפל) בקלות ולהריץ קוד של אסמבלי 86 עם טורבו אסמבלר וטורבו דיבאגר עם דוס בוקס בווינדוז.
 
-#### בחר שפה:
+#### בחר שפה
 <div dir="rtl" style="text-align: right;">
   <a href="README.he.md"><img src="https://img.shields.io/badge/עברית-red?style=for-the-badge" alt="Hebrew"></a>
   <a href="README.md"><img src="https://img.shields.io/badge/English-blue?style=for-the-badge" alt="English"></a>
@@ -44,6 +44,7 @@
 1. רוצה לראות רגיסטרים / מעבד / מידע נוסף?
 2. בתוך **DOSBox** לחץ על **View** ובחר את מה שאתה צריך.
 3. כדי לצאת, לחץ על **File > Exit** או **Alt+X**, ולאחר מכן הקלד `exit` בקונסול שנפתחה (אם נפתחה).
+
 
 
 
