@@ -36,7 +36,7 @@ A tutorial with source code on how to use Notepad++ to easily compile and run As
 9. Write your code inside it, open the **Run** at the top toolbar and press **Compile Only (Assembly x86)** or use your hotkey.
 10. At the DOSBox window that will open, type: `td [asm_file_name]`
 
-### How to actually use it?
+## How to actually use it?
 #### How to create and run a project
 1. Each time you want to make a new project/file navigate to `C:\TASM\EX`
 2. Make your subfolder(s) and your files inside it/just a file.
