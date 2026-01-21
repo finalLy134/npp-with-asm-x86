@@ -2,10 +2,15 @@
 מדריך עם קוד מקור על איך להדר (לקמפל) בקלות ולהריץ קוד של אסמבלי 86 עם טורבו אסמבלר וטורבו דיבאגר עם דוס בוקס בווינדוז.
 
 #### בחר שפה:
-<div style="text-align: right;">
- <a href="README.md"><img src="https://img.shields.io/badge/English-blue?style=for-the-badge" alt="English"></a>
- <a href="README.he.md"><img src="https://img.shields.io/badge/עברית-red?style=for-the-badge" alt="Hebrew"></a>
+<div dir="rtl" style="text-align: right;">
+  <a href="README.he.md">
+    <img src="https://img.shields.io/badge/עברית-red?style=for-the-badge" alt="Hebrew">
+  </a>
+  <a href="README.md">
+    <img src="https://img.shields.io/badge/English-blue?style=for-the-badge" alt="English">
+  </a>
 </div>
+
 ## התקנה
 1. התקן [Notepad++](https://notepad-plus-plus.org/downloads/)
 2. הורד את הקבצים או שכפל את הפרויקט.
