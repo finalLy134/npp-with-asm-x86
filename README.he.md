@@ -7,7 +7,7 @@
   <a href="README.md"><img src="https://img.shields.io/badge/English-blue?style=for-the-badge" alt="English"></a>
 </div>
 
-## סרטון הדרכה
+#### סרטון הדרכה
 [לחץ כאן לפתיחת הסרטון](https://www.youtube.com/watch?v=GEZ0K2BsnDg)
 
 ## התקנה
@@ -44,6 +44,7 @@
 1. רוצה לראות רגיסטרים / מעבד / מידע נוסף?
 2. בתוך **DOSBox** לחץ על **View** ובחר את מה שאתה צריך.
 3. כדי לצאת, לחץ על **File > Exit** או **Alt+X**, ולאחר מכן הקלד `exit` בקונסול שנפתחה (אם נפתחה).
+
 
 
 
