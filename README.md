@@ -17,24 +17,19 @@ A tutorial with source code on how to use Notepad++ to easily compile and run As
 ## Setup
 1. Open Notepad++
 2. Open **Run > Run...** in the top toolbar or press **F5**
-3. Press the **...** to browse and add navigate to the `C:\TASM\BIN` folder and follow the **Setup Compile and Run** and **Setup Compile Only**
 
 #### Setup Compile and Run
-4. Select the `C:\TASM\BIN\COMPILE_AND_RUN.BAT`
-5. This will add the path to the run command, then make a space and press **+** on the right
-6. Select `FULL_CURRENT_PATH`
-7. Press **Save**, name it **Compile and Run (Assembly x86)** and select a hotkey.
-8. Then create any `.asm` file you'd like in the `C:\TASM\EX`, you can even make folders there for different projects.
-9. Write your code inside it, open the **Run** at the top toolbar and press **Compile and Run (Assembly x86)** or use your hotkey.
+3. Paste this command inside: `cmd /c ""C:\TASM\BIN\COMPILE_AND_RUN.BAT" "$(FULL_CURRENT_PATH)""`
+4. Press **Save**, name it **Compile and Run (Assembly x86)** and select a hotkey.
+5. Then create any `.asm` file you'd like in the `C:\TASM\EX`, you can even make folders there for different projects.
+6. Write your code inside it, open the **Run** at the top toolbar and press **Compile and Run (Assembly x86)** or use your hotkey.
 
 #### Setup Compile Only (Good for catching errors)
-4. Select the `C:\TASM\BIN\COMPILE_ONLY.BAT`
-5. This will add the path to the run command, then make a space and press **+** on the right
-6. Select `FULL_CURRENT_PATH`
-7. Press **Save**, name it **Compile Only (Assembly x86)** and select a hotkey.
-8. Then create any `.asm` file you'd like in the `C:\TASM\EX`, you can even make folders there for different projects.
-9. Write your code inside it, open the **Run** at the top toolbar and press **Compile Only (Assembly x86)** or use your hotkey.
-10. At the DOSBox window that will open, type: `td [asm_file_name]`
+3. Pase this command inside: `cmd /c ""C:\TASM\BIN\COMPILE_ONLY.BAT" "$(FULL_CURRENT_PATH)""`
+4. Press **Save**, name it **Compile Only (Assembly x86)** and select a hotkey.
+5. Then create any `.asm` file you'd like in the `C:\TASM\EX`, you can even make folders there for different projects.
+6. Write your code inside it, open the **Run** at the top toolbar and press **Compile Only (Assembly x86)** or use your hotkey.
+7. At the DOSBox window that will open, type: `td [asm_file_name]`
 
 ## How to actually use it?
 #### How to create and run a project
