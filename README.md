@@ -6,7 +6,7 @@ A tutorial with source code on how to use Notepad++ to easily compile and run As
 <a href="README.md"><img src="https://img.shields.io/badge/English-blue?style=for-the-badge" alt="English"></a>
 <a href="README.he.md"><img src="https://img.shields.io/badge/עברית-red?style=for-the-badge" alt="Hebrew"></a>
 
-## Instruction Video
+#### Instruction Video
 [Click here to open the video](https://www.youtube.com/watch?v=GEZ0K2BsnDg)
 
 ## Installation
