@@ -17,7 +17,7 @@ A tutorial with source code on how to use Notepad++ to easily compile and run As
 ## Setup
 1. Open Notepad++
 2. Open **Run > Run...** in the top toolbar or press **F5**
-3. Press the **...** to browse and add navigate to the `C:\TASM\BIN` folder
+3. Press the **...** to browse and add navigate to the `C:\TASM\BIN` folder and follow the **Setup Compile and Run** and **Setup Compile Only**
 
 #### Setup Compile and Run
 4. Select the `C:\TASM\BIN\COMPILE_AND_RUN.BAT`
