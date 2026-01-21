@@ -3,12 +3,8 @@
 
 #### בחר שפה:
 <div dir="rtl" style="text-align: right;">
-  <a href="README.he.md">
-    <img src="https://img.shields.io/badge/עברית-red?style=for-the-badge" alt="Hebrew">
-  </a>
-  <a href="README.md">
-    <img src="https://img.shields.io/badge/English-blue?style=for-the-badge" alt="English">
-  </a>
+  <a href="README.he.md"><img src="https://img.shields.io/badge/עברית-red?style=for-the-badge" alt="Hebrew"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/English-blue?style=for-the-badge" alt="English"></a>
 </div>
 
 ## התקנה
@@ -40,6 +36,7 @@
 8. עכשיו צור קובץ `.asm` שתבחר ב `C:\TASM\EX`, ניתן גם ליצור תיקיות בפנים שם עבור פרויקטים שונים שתבחר.
 9. כתוב את הקוד שלך שם, תפתח את תפריט ה **Run** למעלה ולחץ **Compile and Run (Assembly x86)** או שתלחץ על כפתור קיצור הדרך שבחרת.
 10. בחלון הדוס בוקס שייפתח, כתוב `td [file_name]`.
+
 
 
 
