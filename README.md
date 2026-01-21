@@ -1,7 +1,7 @@
 # npp-with-asm-x86
 A tutorial with source code on how to use Notepad++ to easily compile and run Assembly x86 with TASM and Turbo Debugger on DOSBox in Windows.
 
-### Choose Language
+#### Choose Language:
 
 <a href="README.md"><img src="https://img.shields.io/badge/English-blue?style=for-the-badge" alt="English"></a>
 <a href="README.he.md"><img src="https://img.shields.io/badge/עברית-red?style=for-the-badge" alt="Hebrew"></a>
