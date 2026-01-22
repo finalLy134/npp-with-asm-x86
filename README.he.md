@@ -17,7 +17,7 @@
 
 ## 🎥 סרטון הדרכה
 
-👉 [לחץ כאן לצפייה בסרטון ההתקנה המלא](https://youtu.be/qH3t2vbvXLY)
+👉 [לחץ כאן לצפייה בסרטון ההתקנה המלא בעברית](https://youtu.be/qH3t2vbvXLY)
 
 > אם אתה מעדיף לקרוא במקום לצפות, כל מה שמופיע בסרטון מוסבר כאן שלב־אחר־שלב.
 
@@ -225,4 +225,5 @@ td your_file_name
 ---
 
 **סוף 😄**
+
 
