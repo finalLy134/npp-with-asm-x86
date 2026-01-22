@@ -15,7 +15,7 @@ This README merges the **instruction video steps** with a **clear written guide*
 
 ## 🎥 Instruction Video
 
-👉 [Click here to watch the full setup video](https://www.youtube.com/watch?v=GEZ0K2BsnDg)
+👉 [Click here to watch the full setup video in English](https://www.youtube.com/watch?v=GEZ0K2BsnDg)
 
 > If you prefer reading instead of watching, everything shown in the video is explained step-by-step below.
 
